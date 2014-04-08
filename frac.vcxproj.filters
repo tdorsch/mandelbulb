@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="frac.cpp" />
+    <ClCompile Include="DXUT11\Core\DXUT.cpp">
+      <Filter>DXUT11</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Optional\DXUTcamera.cpp">
+      <Filter>DXUT11</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Core\DXUTDevice11.cpp">
+      <Filter>DXUT11</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Core\DXUTDevice9.cpp">
+      <Filter>DXUT11</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Optional\DXUTgui.cpp">
+      <Filter>DXUT11</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Core\DXUTmisc.cpp">
+      <Filter>DXUT11</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Optional\DXUTres.cpp">
+      <Filter>DXUT11</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT11</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Optional\SDKmesh.cpp">
+      <Filter>DXUT11</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT11\Optional\SDKmisc.cpp">
+      <Filter>DXUT11</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h" />
+    <ClInclude Include="DXUT11\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT11</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Core\DXUT.h">
+      <Filter>DXUT11</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Optional\DXUTcamera.h">
+      <Filter>DXUT11</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Core\DXUTDevice11.h">
+      <Filter>DXUT11</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Core\DXUTDevice9.h">
+      <Filter>DXUT11</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Optional\DXUTgui.h">
+      <Filter>DXUT11</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Core\DXUTmisc.h">
+      <Filter>DXUT11</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Optional\DXUTres.h">
+      <Filter>DXUT11</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Optional\SDKmisc.h">
+      <Filter>DXUT11</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT11\Optional\SDKmesh.h">
+      <Filter>DXUT11</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="frac.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT11\Optional\directx.ico">
+      <Filter>DXUT11</Filter>
+    </None>
+    <None Include="MandelbulbPS.hlsl" />
+    <None Include="QuadVS.hlsl" />
+    <None Include="MandelboxPS.hlsl" />
+    <None Include="frac.fx" />
+    <None Include="raymarch.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DXUT11">
+      <UniqueIdentifier>{d5eee79c-c4e7-44b7-ba71-490639bc9651}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
