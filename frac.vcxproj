@@ -27,9 +27,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>HDRToneMappingCS11</ProjectName>
-    <ProjectGuid>{D3D11102-96D0-4629-88B8-122C0256058C}</ProjectGuid>
-    <RootNamespace>HDRToneMappingCS11</RootNamespace>
+    <ProjectName>frac</ProjectName>
+    <ProjectGuid>{C0B91E9C-9BB9-40B8-B9C3-4E3AD3B590A8}</ProjectGuid>
+    <RootNamespace>frac</RootNamespace>
     <Keyword>Win32Proj</Keyword>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
